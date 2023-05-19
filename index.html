@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id = 'container-main'>
+            <div id="container-img">
+                <img src="img/01.webp" alt="">
+                <div id="text">
+                    <h1>Ciao </h1>
+                    <p> Vero earum dolorum dolores omnis maxime fugiat eius fuga voluptate deleniti similique! Explicabo ratione doloribus iusto ipsa cumque accusantium, et voluptatem quaerat.</p>
+                </div>
+                
+            </div>
+            <div id="tumblnais">
+                <div class="button before"><i class="fa-sharp fa-solid fa-angle-down"></i></div>
+                <div class="button next"><i class="fa-sharp fa-solid fa-angle-up "></i></div>
+                <div id="container-img2">
+                    <img v-for="img in immages" : src="img" alt="">
+                    
+                </div>  
+                
+                
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
